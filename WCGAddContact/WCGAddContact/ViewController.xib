@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="ga2-lq-oKq" customClass="ViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="7AR-V9-8FJ"/>
+                <viewControllerLayoutGuide type="bottom" id="SUY-3L-8zE"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="v1U-9R-YHX">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="M56-VG-3bg">
+                        <rect key="frame" x="20" y="97" width="121" height="29"/>
+                        <segments>
+                            <segment title="First"/>
+                            <segment title="Second"/>
+                        </segments>
+                    </segmentedControl>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="334" y="69"/>
+        </viewController>
+    </objects>
+</document>

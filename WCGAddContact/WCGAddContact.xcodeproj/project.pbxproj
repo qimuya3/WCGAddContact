@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0800DA581CAE0CCB00223CEB /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0800DA571CAE0CCB00223CEB /* sound.wav */; };
+		0800DA5C1CAE58E900223CEB /* AccelerometerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800DA5A1CAE58E900223CEB /* AccelerometerVC.m */; };
+		0800DA5D1CAE58E900223CEB /* AccelerometerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0800DA5B1CAE58E900223CEB /* AccelerometerVC.xib */; };
+		0800FFFA1CACF2EC004DE6C0 /* MotionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800FFF81CACF2EC004DE6C0 /* MotionVC.m */; };
+		0800FFFB1CACF2EC004DE6C0 /* MotionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0800FFF91CACF2EC004DE6C0 /* MotionVC.xib */; };
+		08327B5B1CA52B3B0036970A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08327B5A1CA52B3B0036970A /* main.m */; };
+		08327B5E1CA52B3B0036970A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08327B5D1CA52B3B0036970A /* AppDelegate.m */; };
+		08327B661CA52B3B0036970A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08327B651CA52B3B0036970A /* Assets.xcassets */; };
+		08327B731CA52BCC0036970A /* AddContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 08327B711CA52BCC0036970A /* AddContactVC.m */; };
+		08327B741CA52BCC0036970A /* AddContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08327B721CA52BCC0036970A /* AddContactVC.xib */; };
+		08B018A31CAA54170051669E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B018A21CAA54170051669E /* Launch Screen.storyboard */; };
+		08B018A71CAA5D6E0051669E /* CreatCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B018A51CAA5D6E0051669E /* CreatCodeVC.m */; };
+		08B018A81CAA5D6E0051669E /* CreatCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B018A61CAA5D6E0051669E /* CreatCodeVC.xib */; };
+		08EFFD271CABB5DD00278CEA /* ScanCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EFFD251CABB5DD00278CEA /* ScanCodeVC.m */; };
+		08EFFD281CABB5DD00278CEA /* ScanCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EFFD261CABB5DD00278CEA /* ScanCodeVC.xib */; };
+		08EFFD311CABBF7700278CEA /* ScanCodeRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EFFD2F1CABBF7700278CEA /* ScanCodeRootVC.m */; };
+		08EFFD321CABBF7700278CEA /* ScanCodeRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EFFD301CABBF7700278CEA /* ScanCodeRootVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0800DA571CAE0CCB00223CEB /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+		0800DA591CAE58E900223CEB /* AccelerometerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerVC.h; sourceTree = "<group>"; };
+		0800DA5A1CAE58E900223CEB /* AccelerometerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerVC.m; sourceTree = "<group>"; };
+		0800DA5B1CAE58E900223CEB /* AccelerometerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccelerometerVC.xib; sourceTree = "<group>"; };
+		0800FFF71CACF2EC004DE6C0 /* MotionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionVC.h; sourceTree = "<group>"; };
+		0800FFF81CACF2EC004DE6C0 /* MotionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionVC.m; sourceTree = "<group>"; };
+		0800FFF91CACF2EC004DE6C0 /* MotionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MotionVC.xib; sourceTree = "<group>"; };
+		08327B561CA52B3B0036970A /* WCGAddContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCGAddContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08327B5A1CA52B3B0036970A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08327B5C1CA52B3B0036970A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08327B5D1CA52B3B0036970A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08327B651CA52B3B0036970A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08327B6A1CA52B3B0036970A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08327B701CA52BCC0036970A /* AddContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactVC.h; sourceTree = "<group>"; };
+		08327B711CA52BCC0036970A /* AddContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactVC.m; sourceTree = "<group>"; };
+		08327B721CA52BCC0036970A /* AddContactVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContactVC.xib; sourceTree = "<group>"; };
+		08B018A21CAA54170051669E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		08B018A41CAA5D6E0051669E /* CreatCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatCodeVC.h; sourceTree = "<group>"; };
+		08B018A51CAA5D6E0051669E /* CreatCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatCodeVC.m; sourceTree = "<group>"; };
+		08B018A61CAA5D6E0051669E /* CreatCodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatCodeVC.xib; sourceTree = "<group>"; };
+		08EFFD241CABB5DD00278CEA /* ScanCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeVC.h; sourceTree = "<group>"; };
+		08EFFD251CABB5DD00278CEA /* ScanCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeVC.m; sourceTree = "<group>"; };
+		08EFFD261CABB5DD00278CEA /* ScanCodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanCodeVC.xib; sourceTree = "<group>"; };
+		08EFFD2E1CABBF7700278CEA /* ScanCodeRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeRootVC.h; sourceTree = "<group>"; };
+		08EFFD2F1CABBF7700278CEA /* ScanCodeRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeRootVC.m; sourceTree = "<group>"; };
+		08EFFD301CABBF7700278CEA /* ScanCodeRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanCodeRootVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08327B531CA52B3B0036970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0800DA561CAE0CCB00223CEB /* PSD */ = {
+			isa = PBXGroup;
+			children = (
+				0800DA571CAE0CCB00223CEB /* sound.wav */,
+			);
+			path = PSD;
+			sourceTree = "<group>";
+		};
+		08327B4D1CA52B3B0036970A = {
+			isa = PBXGroup;
+			children = (
+				08327B581CA52B3B0036970A /* WCGAddContact */,
+				08327B571CA52B3B0036970A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08327B571CA52B3B0036970A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08327B561CA52B3B0036970A /* WCGAddContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08327B581CA52B3B0036970A /* WCGAddContact */ = {
+			isa = PBXGroup;
+			children = (
+				0800DA561CAE0CCB00223CEB /* PSD */,
+				08327B5C1CA52B3B0036970A /* AppDelegate.h */,
+				08327B5D1CA52B3B0036970A /* AppDelegate.m */,
+				08327B651CA52B3B0036970A /* Assets.xcassets */,
+				08327B6A1CA52B3B0036970A /* Info.plist */,
+				08327B591CA52B3B0036970A /* Supporting Files */,
+				08327B701CA52BCC0036970A /* AddContactVC.h */,
+				08327B711CA52BCC0036970A /* AddContactVC.m */,
+				08327B721CA52BCC0036970A /* AddContactVC.xib */,
+				08B018A41CAA5D6E0051669E /* CreatCodeVC.h */,
+				08B018A51CAA5D6E0051669E /* CreatCodeVC.m */,
+				08B018A61CAA5D6E0051669E /* CreatCodeVC.xib */,
+				08EFFD241CABB5DD00278CEA /* ScanCodeVC.h */,
+				08EFFD251CABB5DD00278CEA /* ScanCodeVC.m */,
+				08EFFD261CABB5DD00278CEA /* ScanCodeVC.xib */,
+				08EFFD2E1CABBF7700278CEA /* ScanCodeRootVC.h */,
+				08EFFD2F1CABBF7700278CEA /* ScanCodeRootVC.m */,
+				08EFFD301CABBF7700278CEA /* ScanCodeRootVC.xib */,
+				0800FFF71CACF2EC004DE6C0 /* MotionVC.h */,
+				0800FFF81CACF2EC004DE6C0 /* MotionVC.m */,
+				0800FFF91CACF2EC004DE6C0 /* MotionVC.xib */,
+				0800DA591CAE58E900223CEB /* AccelerometerVC.h */,
+				0800DA5A1CAE58E900223CEB /* AccelerometerVC.m */,
+				0800DA5B1CAE58E900223CEB /* AccelerometerVC.xib */,
+				08B018A21CAA54170051669E /* Launch Screen.storyboard */,
+			);
+			path = WCGAddContact;
+			sourceTree = "<group>";
+		};
+		08327B591CA52B3B0036970A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08327B5A1CA52B3B0036970A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08327B551CA52B3B0036970A /* WCGAddContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08327B6D1CA52B3C0036970A /* Build configuration list for PBXNativeTarget "WCGAddContact" */;
+			buildPhases = (
+				08327B521CA52B3B0036970A /* Sources */,
+				08327B531CA52B3B0036970A /* Frameworks */,
+				08327B541CA52B3B0036970A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCGAddContact;
+			productName = WCGAddContact;
+			productReference = 08327B561CA52B3B0036970A /* WCGAddContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08327B4E1CA52B3B0036970A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chungangwu;
+				TargetAttributes = {
+					08327B551CA52B3B0036970A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 08327B511CA52B3B0036970A /* Build configuration list for PBXProject "WCGAddContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08327B4D1CA52B3B0036970A;
+			productRefGroup = 08327B571CA52B3B0036970A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08327B551CA52B3B0036970A /* WCGAddContact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08327B541CA52B3B0036970A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0800FFFB1CACF2EC004DE6C0 /* MotionVC.xib in Resources */,
+				08EFFD321CABBF7700278CEA /* ScanCodeRootVC.xib in Resources */,
+				0800DA5D1CAE58E900223CEB /* AccelerometerVC.xib in Resources */,
+				08B018A31CAA54170051669E /* Launch Screen.storyboard in Resources */,
+				08EFFD281CABB5DD00278CEA /* ScanCodeVC.xib in Resources */,
+				08327B661CA52B3B0036970A /* Assets.xcassets in Resources */,
+				08327B741CA52BCC0036970A /* AddContactVC.xib in Resources */,
+				0800DA581CAE0CCB00223CEB /* sound.wav in Resources */,
+				08B018A81CAA5D6E0051669E /* CreatCodeVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08327B521CA52B3B0036970A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0800DA5C1CAE58E900223CEB /* AccelerometerVC.m in Sources */,
+				08327B5E1CA52B3B0036970A /* AppDelegate.m in Sources */,
+				08EFFD271CABB5DD00278CEA /* ScanCodeVC.m in Sources */,
+				08EFFD311CABBF7700278CEA /* ScanCodeRootVC.m in Sources */,
+				08327B5B1CA52B3B0036970A /* main.m in Sources */,
+				08327B731CA52BCC0036970A /* AddContactVC.m in Sources */,
+				08B018A71CAA5D6E0051669E /* CreatCodeVC.m in Sources */,
+				0800FFFA1CACF2EC004DE6C0 /* MotionVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08327B6B1CA52B3B0036970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08327B6C1CA52B3B0036970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08327B6E1CA52B3C0036970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WCGAddContact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSwu.WCGAddContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		08327B6F1CA52B3C0036970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WCGAddContact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSwu.WCGAddContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08327B511CA52B3B0036970A /* Build configuration list for PBXProject "WCGAddContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08327B6B1CA52B3B0036970A /* Debug */,
+				08327B6C1CA52B3B0036970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08327B6D1CA52B3C0036970A /* Build configuration list for PBXNativeTarget "WCGAddContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08327B6E1CA52B3C0036970A /* Debug */,
+				08327B6F1CA52B3C0036970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08327B4E1CA52B3B0036970A /* Project object */;
+}
